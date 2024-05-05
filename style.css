@@ -1,0 +1,148 @@
+* {
+    font-family: sans-serif;
+}
+
+/* /// generate random color */
+.img1 {
+    height: 54px;
+    width: 60px;
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+a:hover {
+    color: rgb(153, 149, 82);
+}
+
+.page1 {
+    height: 60px;
+    width: 1368px;
+    background-color: black;
+    color: white;
+    padding: 0px;
+    margin-top: -8px;
+    margin-left: -8px;
+    position: fixed;
+}
+
+.hedder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    justify-content: space-evenly;
+    height: 54px;
+    border: 3px solid black;
+}
+
+.main1 {
+    margin-bottom: 220px;
+}
+
+.column {
+    height: 150px;
+    width: 300px;
+    border: 3px solid black;
+    margin-top: 50px;
+}
+
+.generater-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials.jpg");
+    background-size: cover;
+    height: 625px;
+    width: 1368px;
+    margin-top: 52px;
+    margin-left: -10px;
+    position: fixed;
+}
+
+.random-color-generater {
+    display: flex;
+    align-content: center;
+    height: 770px;
+    width: 1368px;
+}
+
+/* for color picker */
+
+.div1,
+.div2 {
+    height: 150px;
+    width: 500px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 5px;
+    background-color: white;
+}
+
+.color,
+h1 {
+    font-size: 2em;
+}
+
+#inp {
+    height: 150px;
+    width: 275px;
+    border: 2px solid black;
+}
+
+
+button {
+    height: 30px;
+    margin-bottom: 150px;
+}
+
+.color-picker {
+    display: flex;
+    align-content: center;
+    height: 770px;
+    width: 1368px;
+}
+
+.main {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials.jpg");
+    background-size: cover;
+    height: 625px;
+    width: 1368px;
+    margin-top: 52px;
+    margin-left: -10px;
+    position: fixed;
+}
+
+/* ///// for fradback */
+.feadback-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials.jpg");
+    background-size: cover;
+    height: 625px;
+    width: 1368px;
+    margin-top: 52px;
+    margin-left: -10px;
+    position: fixed;
+}
+
+.feadback {
+    display: flex;
+    align-content: center;
+    height: 770px;
+    width: 1368px;
+}

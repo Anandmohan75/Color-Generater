@@ -1,0 +1,94 @@
+* {
+    font-family: sans-serif;
+}
+
+.home {
+    display: flex;
+    align-content: center;
+    height: 550px;
+    width: 1368px;
+}
+
+.img1 {
+    height: 54px;
+    width: 60px;
+}
+
+a {
+    padding-left: 30px;
+    color: yellow;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(153, 149, 82);
+}
+
+.page1 {
+    height: 60px;
+    width: 1368px;
+    background-color: black;
+    color: white;
+    padding: 0px;
+    margin-top: -20px;
+    margin-left: -8px;
+    position: fixed;
+}
+
+.hedder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    justify-content: space-evenly;
+    height: 54px;
+    border: 3px solid black;
+}
+
+/* /* //////////// */
+.page4 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials.jpg");
+    background-size: cover;
+    font-size: 75px;
+    height: 625px;
+    width: 1368px;
+    margin-top: 52px;
+    margin-left: -10px;
+    color: #2a372d14;
+    position: fixed;
+}
+
+.animate {
+    height: 50px;
+    width: 1024px;
+    font-size: 55px;
+    text-align: center;
+    text-rendering: initial;
+    text-overflow: initial;
+    overflow: hidden;
+    text-align: center;
+    animation-name: anand;
+    color: #2e07dc58;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    /* animation: anand 2s steps(10) infinite; */
+}
+
+@keyframes anand {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 1368px;
+    }
+}
